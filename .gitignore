@@ -7,6 +7,11 @@
 .envrc
 .vscode/settings.json
 
+.ipython/**
+.ipynb_checkpoints/**
+.local/**
+.keras/**
+
 /models/**/*.h5
 /models/**/variables.*
 /models/**/*.pb
