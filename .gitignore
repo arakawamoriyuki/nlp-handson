@@ -1,0 +1,13 @@
+!.gitkeep
+**/__pycache__/*
+**/.pytest_cache/*
+*.pyc
+.DS_Store
+
+.envrc
+.vscode/settings.json
+
+/models/**/*.h5
+/models/**/variables.*
+/models/**/*.pb
+/logs/**/events.*
