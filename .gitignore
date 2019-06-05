@@ -17,3 +17,4 @@
 /models/**/variables.*
 /models/**/*.pb
 /logs/**/events.*
+sentencepiece_processor_ops.so
