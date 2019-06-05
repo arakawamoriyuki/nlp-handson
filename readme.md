@@ -1,13 +1,13 @@
 
 # nlp-handson
 
-1. docker -> preference -> advanced memory -> 3G
+1. docker -> preference -> advanced memory -> 4G
 
 2. run jupyter notebook
 
 ```
 $ docker build -t nlp-handson .
-$ docker run --rm -it -m 3G -p 8888:8888 -p 8500:8500 -v "$(pwd):/home/user" nlp-handson
+$ docker run --rm -it -m 4G -p 8888:8888 -p 8500:8500 -v "$(pwd):/home/user" nlp-handson
 ```
 
 ```
